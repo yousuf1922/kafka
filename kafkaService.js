@@ -18,7 +18,7 @@ class KafkaService {
                 factor: 2, // Exponential backoff factor
                 maxRetryTime: 30000, // Maximum total time to keep retrying (30 seconds)
             },
-            logLevel: logLevel.ERROR, // Set log level to ERROR to reduce verbosity
+            logLevel: logLevel.INFO, // Set log level to ERROR to reduce verbosity
         });
 
         // Initialize producer, consumer, and admin instances
